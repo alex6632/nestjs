@@ -1,0 +1,11 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "root",
+  "password": "%Alexandre0;",
+  "database": "nestjstest",
+   "entities": ["dist/**/*.entity{.ts,.js}"],
+   "migrations": ["dist/migrations/**/*.js"],
+   "synchronize": true
+}
